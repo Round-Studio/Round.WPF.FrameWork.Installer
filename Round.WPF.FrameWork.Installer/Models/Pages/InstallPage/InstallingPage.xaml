@@ -1,0 +1,20 @@
+﻿<Page
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Round.WPF.FrameWork.Installer.Models.Pages.InstallPage"
+      xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls" x:Class="Round.WPF.FrameWork.Installer.Models.Pages.InstallPage.InstallingPage"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="InstallingPage">
+
+    <Grid>
+        <Label Content="安装中..." HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <ProgressBar x:Name="JDBox" Height="17" Margin="10,53,10,0" d:LayoutOverrides="HorizontalAlignment" VerticalAlignment="Top"/>
+
+        <mah:ProgressRing HorizontalAlignment="Left" Margin="10,0,0,10" VerticalAlignment="Bottom" Height="35" Width="35"/>
+        <Label x:Name="FileName" Content="" Margin="56,0,10,10" d:LayoutOverrides="HorizontalAlignment" Height="35" VerticalAlignment="Bottom" VerticalContentAlignment="Center"/>
+
+    </Grid>
+</Page>

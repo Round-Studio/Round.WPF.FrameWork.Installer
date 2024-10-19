@@ -1,0 +1,20 @@
+﻿<Page
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Round.WPF.FrameWork.Installer.Models.Pages.InstallPage"
+      xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls" x:Class="Round.WPF.FrameWork.Installer.Models.Pages.InstallPage.InstallEndPage"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="InstallEndPage">
+
+    <Grid>
+        <Label Content="安装完成！" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="22"/>
+        <Label Content="大功告成啦！你现在可以开始使用了" HorizontalAlignment="Left" Margin="10,48,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="Next1" Content="完成" Margin="0,0,10,10" Height="29" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="65" Click="Next1_Click"/>
+        <CheckBox x:Name="RunCh" Content="运行 {InstallerTitle}" Margin="14,78,10,0" Height="25" VerticalAlignment="Top" d:LayoutOverrides="HorizontalAlignment" IsChecked="True"/>
+        <Label Content="感谢使用 由 Minecraft一角钱 制作的安装包打包工具" Margin="10,0,80,5" VerticalAlignment="Bottom" FontSize="10" Height="25" d:LayoutOverrides="HorizontalAlignment"/>
+
+    </Grid>
+</Page>

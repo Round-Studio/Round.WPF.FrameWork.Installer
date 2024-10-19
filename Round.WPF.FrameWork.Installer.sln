@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Round.WPF.FrameWork.Installer", "Round.WPF.FrameWork.Installer\Round.WPF.FrameWork.Installer.csproj", "{B088B52A-0ABC-4229-8F28-BC13006F963E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Round.WPF.FrameWork.Installer.Make", "Round.WPF.FrameWork.Installer.Make\Round.WPF.FrameWork.Installer.Make.csproj", "{4960233F-75D8-4982-A3C4-C82CF6CE3D18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B088B52A-0ABC-4229-8F28-BC13006F963E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B088B52A-0ABC-4229-8F28-BC13006F963E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B088B52A-0ABC-4229-8F28-BC13006F963E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B088B52A-0ABC-4229-8F28-BC13006F963E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4960233F-75D8-4982-A3C4-C82CF6CE3D18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4960233F-75D8-4982-A3C4-C82CF6CE3D18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4960233F-75D8-4982-A3C4-C82CF6CE3D18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4960233F-75D8-4982-A3C4-C82CF6CE3D18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11C17977-C2F5-402F-8E67-981188D9F5C7}
+	EndGlobalSection
+EndGlobal
